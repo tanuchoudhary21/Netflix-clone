@@ -1,11 +1,15 @@
 import "./App.scss";
-import Home from "./home/Home";
+import Register from "./register/Register";
+// import Home from "./home/Home";
+import Watch from "./watch/Watch";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Home />
+        {/* <Watch/> */}
+        {/* <Home /> */}
+        <Register />
       </header>
     </div>
   );
